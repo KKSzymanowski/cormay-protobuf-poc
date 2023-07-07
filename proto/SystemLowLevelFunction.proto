@@ -1,0 +1,17 @@
+syntax = "proto2";
+
+package protobuf;
+
+option java_package = "pl.cormay.something";
+option java_outer_classname = "Protos";
+
+enum SystemLowLevelFunction {
+  MIXER_SPEED = 142;
+  LAMP_ON = 150;
+  LAMP_OFF = 151;
+  LAMP_VOLTAGE_ADJUST = 152;
+  REFERENCE_MEAS_POS = 153;
+  ROTATION_TEACH_IN = 154;
+  MEAS_POS_OFFSET = 158;
+  TEACH_IN_DONE = 159;
+}
